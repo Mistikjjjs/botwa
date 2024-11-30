@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-tiktok-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp que descarga videos de TikTok utilizando Baileys y una API externa.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "tiktok",
+    "video",
+    "download"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.7",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
